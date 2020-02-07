@@ -1,1 +1,1 @@
-# curiousconcepts
+# Curious Concepts
