@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: tech_post
 title:  "Spring boot project - Must have addons!"
 date:   2019-07-30 03:49:41 +0530
-categories: spring-boot
 description: Must do things with a spring boot project
 tags: spring-boot lombok swagger checkstyle docker rest-api rest
 ---
@@ -37,8 +36,6 @@ It is a common convention to use DTO (Data transfer Object) to get input from us
 Spring data [jpa][jpa] helps you write almost zero sql queries and minimal data retreival and storage code. It also helps enable automatic [auditing][jpa-auditing] on your entities.
 
 That's all for now folks!! I will update this post, if I come to know of additional add-ons.
-
-{% include share.html %}
 
 [jpa-auditing]: https://www.baeldung.com/database-auditing-jpa
 [jpa]: https://spring.io/projects/spring-data-jpa

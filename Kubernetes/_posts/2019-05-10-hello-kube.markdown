@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: tech_post
 title:  "Hello kube"
 date:   2019-05-10 10:49:41 +0530
-categories: kubernetes
 description: Getting started with kubernetes to deploy an app
 tags: kubernetes k8s configmap secret deployment service
 ---
