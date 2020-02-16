@@ -15,7 +15,7 @@ Many of you might be aware of this site. It lets you create a spring boot projec
 Spring boot [devtools][devtools-link] is a must have dependency in your spring boot project. It requires zero configuration. Only thing however you need to do is to enable `Automatic build` in your IDE. Your classpath changes are hot reloaded in the server with a restart during development.
 
 ### 3. lombok
-[Lombok][lombok] is used to make your pojos/dtos/entities(model) object to be cluster free with getters, setters, constructors, builders, equals(), hashCode. A single annotation as `@Getter` and you are done with getters for all the variables defined in the class.
+[Lombok][lombok] is used to make your pojos/dtos/entities(model) object to be clutter free with getters, setters, constructors, builders, equals(), hashCode. A single annotation as `@Getter` and you are done with getters for all the variables defined in the class.
 
 ### 4. Swagger
 [Swagger][swagger] is an openApi specification - the industry statndard for RESTful API design. [Springfox][springfox] provides dependencies that creates the swagger json and the swagger UI. With zero documentation effort, you get a UI from where you can try out your rest APIs and a beautiful documentation page. However you can further customize the swagger ui page with additional swagger annotations.
