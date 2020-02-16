@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 disqus:
   shortname: malathit-github-io
 google_analytics: UA-144843932-1
