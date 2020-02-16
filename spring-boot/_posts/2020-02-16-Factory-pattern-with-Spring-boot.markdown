@@ -3,7 +3,7 @@ layout: tech_post
 title: "Factory design pattern with Spring boot"
 date: 2020-02-16 09:47:17 +0530
 description: Implement factory design pattern in a spring boot application
-tags: spring-boot gof design-patterns
+tags: [ Spring Boot, Gof, Design Patterns ]
 ---
 > Design patterns are the `best solutions` for repeated problems that occurs when developing an application.
 
@@ -28,7 +28,7 @@ The Sqs Service and Kafka Service implementation goes like this.
 Now let's write the factory method.
 {% gist a480c2002388e64d5d51720f457ccee7 MessagingServiceFactory.java %}
 
-As you see in the factory method, we build a hashmap with the messaging service name as the key, and MessagingService implementation as the value. All the available implementation of `MessagingService` interface are autowired by spring with the declaration:
+As you see in the factory method, we build a hashmap with the messaging service name as the key, and MessagingService implementation as the value. All the available implementation of `MessagingService` interface i.e *KafkaMessagingService* and *SqsMessagingService* are autowired by spring with the declaration:
 
 ```java
 private List<MessagingService> messagingServices;

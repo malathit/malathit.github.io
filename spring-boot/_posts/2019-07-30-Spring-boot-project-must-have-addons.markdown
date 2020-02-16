@@ -3,7 +3,7 @@ layout: tech_post
 title:  "Spring boot project - Must have addons!"
 date:   2019-07-30 03:49:41 +0530
 description: Must do things with a spring boot project
-tags: spring-boot lombok swagger checkstyle docker rest-api rest
+tags: [ Spring Boot, Lombok, Swagger, Checkstyle, docker, Rest api ]
 ---
 
 Having worked with *spring boot* for a while, I find that there are certain things that can be added with ease and will be quite useful. Let's see them one by one.

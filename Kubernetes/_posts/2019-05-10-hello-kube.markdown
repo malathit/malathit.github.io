@@ -3,7 +3,7 @@ layout: tech_post
 title:  "Hello kube"
 date:   2019-05-10 10:49:41 +0530
 description: Getting started with kubernetes to deploy an app
-tags: kubernetes k8s configmap secret deployment service
+tags: [ Kubernetes, k8s, Kubernetes example ]
 ---
 Kubernetes is one of the highly demanded skill in the software deployment process right now. Let us understand Kubernetes, mystery resolved with a simple demo.
 
