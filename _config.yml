@@ -38,6 +38,25 @@ disqus:
   shortname: malathit-github-io
 google_analytics: UA-144843932-1
 
+# Pagination settings
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: 'true'
+  trail:
+      before: 2
+      after: 2
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/ # optional
+  categories:
+    output: true
+    permalink: /:name/ # optional
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
