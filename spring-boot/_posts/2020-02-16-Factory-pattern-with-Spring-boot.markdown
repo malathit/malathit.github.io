@@ -58,3 +58,7 @@ Also I just need to add the enum in `MessagingServiceType.java`, so it goes as,
 {% gist a480c2002388e64d5d51720f457ccee7 MessagingServiceTypeModified.java %}
 
 There is no need to modify any other existing class.
+
+The complete code of this example is available in github here[github].
+
+[github]: https://github.com/malathit/spring-boot-best-practises
