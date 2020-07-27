@@ -46,6 +46,8 @@ This is a custom [annotation](https://www.javatpoint.com/java-annotation) define
 
 * The value `payload` is useful for clients that invokes the validation and an example can be found [here](https://docs.jboss.org/hibernate/validator/5.1/reference/en-US/html/validator-customconstraints.html#validator-customconstraints-constraintannotation). However in spring boot app, the validations are triggered by spring itself and hence not useful.
 
+* The `@COnstraint` annotation is a must, and that specifies the validators that needs to be invoked when the annotation is specified anywhere.
+
 #### 3. Create a validator class that implements the validation logic 
 {% gist 6a2750a06257a5612f0774e3f0faa6da UniqueUsernameValidator.java %}
 
@@ -66,4 +68,5 @@ constraintValidatorContext.buildConstraintViolationWithTemplate(
 ```
 This is also useful if we want to return multiple error messages in a single validator.
 #### References
-* https://docs.jboss.org/hibernate/validator/5.1/reference/en-US/html/validator-customconstraints.html
+* [Creating custom constraints](https://docs.jboss.org/hibernate/validator/5.1/reference/en-US/html/validator-customconstraints.html
+)
