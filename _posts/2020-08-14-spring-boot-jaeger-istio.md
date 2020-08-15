@@ -15,9 +15,9 @@ layout: tech_post
 - [Istio](https://istio.io/latest/docs/setup/getting-started/#download) is installed in the minikube cluster
 
 #### Jaeger
-In the microservice architecture, distributed tracing help us understand where there is performance issue or where the failure occured in a flow. Jaeger help us enable the distributed tracing with minimal code changes in our application. 
+In the microservice architecture, distributed tracing help us understand better when there is performance issue or when  failure happens. Jaeger help us enable the distributed tracing with minimal code changes in our application. 
 #### Trace & Spans
-`Trace` & `Spans` are the 2 main blocks of Jaeger. A trace represents a complete flow that happened in an application. A span represents a single unit in a trace, that has a name, a start and end time . A trace has multiple spans. 
+`Trace` & `Spans` are the 2 main blocks of Jaeger. A trace represents a complete flow and the services involved in the flow. A span represents a single unit in a trace, that has a name, a start and end time . A trace has multiple spans. 
 
 #### Jaeger without Istio
 Jaeger works by propogating trace headers in the request. At the start of the flow, a trace and span is created.  Then the subsequent services in the flow creates a new span and add them to the trace created at the start. Also it is the responsibility of individual services to push the trace & span information to the jaeger service. 
@@ -30,7 +30,7 @@ In this article, we will see how to use Jaeger that was bundled with istio from 
 - The istio sidecars are designed to send the trace & span information to the Jaeger
 - Supports b3 header propogation
 
-Note: Though Istio simplifies tracing by using the envoy sidecar to create and send span information to Jaeger out of the box, the responsbility lies with the applications to propogate the headers. For example, there are 3 requests coming to the service. All the 3 requests will have their own `trace-id`. Lets say one of the requests need to call another service. Only the first service knows which trace id the request is associated with. Hence it is the application responsibility to propogate trace headers. More details [here](https://istio.io/latest/faq/distributed-tracing/#istio-copy-headers).
+Note: Though Istio simplifies tracing by using the envoy sidecar to create and send span information to Jaeger out of the box, the responsbility lies with the applications to propogate the headers. For example, there are 3 requests coming to a service. All the 3 requests will have their own `trace-id`. Lets say one of the requests need to call another service. Only the first service knows which trace id the request is associated with. Hence it is the application responsibility to propogate trace headers. More details [here](https://istio.io/latest/faq/distributed-tracing/#istio-copy-headers).
 
 #### Demo
 Let's say there are 2 micro-services, 
@@ -39,10 +39,8 @@ Let's say there are 2 micro-services,
 
 The call flow is, `Demo service 1 -> Demo service 2 -> google.com`
 
-In both the demo services add the following 2 dependencies
+In both the demo services `pom.xml` file add the dependency [`opentracing-spring-web-starter`](https://github.com/opentracing-contrib/java-spring-web) provides support for propogating the b3 trace headers by injecting the spring boot rest clients such as RestTemplate, WebClient etc.
 {% gist ee20502e0748569cce00bca146c304ac jaeger-dependencies.xml %}
-
-The dependency [`opentracing-spring-web-starter`](https://github.com/opentracing-contrib/java-spring-web) provides support for propogating the b3 trace headers by injecting the spring boot rest clients such as RestTemplate, WebClient. 
 
 Demo service 1 controller code,
 {% gist ee20502e0748569cce00bca146c304ac Demo1Controller.java %}
