@@ -26,7 +26,7 @@ url: "https://malathit.github.io" # the base hostname & protocol for your site, 
 show_excerpts: true
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -35,6 +35,7 @@ plugins:
   - jekyll-admin
   - jekyll-sitemap
   - liquid_reading_time
+  - jekyll-remote-theme
 
 disqus:
   shortname: malathit-github-io
@@ -70,6 +71,8 @@ minima:
 author:
   name: Malathi Thangarajan
   email: malu.t90@gmail.com
+
+remote_theme: jekyll/minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.

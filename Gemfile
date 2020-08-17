@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-admin"
   gem "jekyll-sitemap"
   gem "liquid_reading_time"
+  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
