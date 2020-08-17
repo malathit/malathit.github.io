@@ -20,11 +20,9 @@
 
 title: Curious concepts
 description: >- # this means to ignore newlines until "baseurl:"
-  Another technical blog
+  Another technical blog about spring-boot, Kubernetes, Istio and the best software development practises.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://malathit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  malathit
-linkedin_username: malathit
 show_excerpts: true
 
 # Build settings
@@ -36,6 +34,8 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-admin
   - jekyll-sitemap
+  - liquid_reading_time
+
 disqus:
   shortname: malathit-github-io
 google_analytics: UA-144843932-1
@@ -59,6 +59,18 @@ collections:
   categories:
     output: true
     permalink: /:name/ # optional
+
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+  social_links:
+    github:  malathit
+    linkedin: malathit
+    stackoverflow: malathi
+author:
+  name: Malathi Thangarajan
+  email: malu.t90@gmail.com
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

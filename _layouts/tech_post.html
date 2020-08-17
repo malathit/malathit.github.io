@@ -2,6 +2,9 @@
 layout: post
 ---
 <div class="tech_post">
+	{% capture time %}{{ content | reading_time }}{% endcapture %}
+  	<p class="post-meta"><i class='far fa-clock'></i>
+ {{ time }} {% if time == '1' %}min{% else %}mins{% endif %} read</p>
     {{ content }}
 	{% include share.html %}
 </div>

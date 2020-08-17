@@ -72,10 +72,11 @@ Open Jaeger UI by running this command
 istioctl dashboard jaeger
 ```
 You will see a single trace when the demo service 1 is selected in the left pane
-![trace-in-jaeger](/images/jaeger/sample-trace.png)
+
+[![trace-in-jaeger](/images/jaeger/sample-trace.png)](/images/jaeger/sample-trace.png)
 
 Clicking on the trace, will give a detailed view like this,
-![trace-detail-view](/images/jaeger/trace-explained.png)
+[![trace-detail-view](/images/jaeger/trace-explained.png)](/images/jaeger/trace-explained.png)
 
 As you see, there are 4 spans. Each span has the timeline that specified how long each span it took. The last span i.e the rest call to www.google.com takes ~109 ms. This way we can easily figure out where is the performace bottleneck or failure.
 
