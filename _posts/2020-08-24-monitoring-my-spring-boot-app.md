@@ -9,7 +9,7 @@ tags:
 - grafana
 ---
 
-Monitoring is an essential feature once your app starts serving live traffic. With monitoring enabled, it is very much feasible to configure alerts which in turn triggers a mail notification, for example. The most popular monitoring stack is offered by `Prometheus and Grafana`. Let's see how we send the metrics provided by the spring boot actuator to prometheus and create dashboards in Grafana.
+Monitoring is an essential feature once your app starts serving live traffic. With monitoring enabled, it is feasible to configure alerts which in turn triggers a mail notification, for example. The most popular monitoring stack is offered by `Prometheus and Grafana`. Let's see how we send the metrics provided by the spring boot actuator to prometheus and create dashboards in Grafana.
 
 The examples mentioned in the post are present in this [github](https://github.com/malathit/spring-boot-best-practises) repo.
 ### Setup spring boot app
