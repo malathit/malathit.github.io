@@ -2,8 +2,6 @@
 layout: post
 ---
 <div class="tech_post">
-	{% capture time %}{{ content | reading_time }}{% endcapture %}
-  	<p>Estimated reading time : {{ time }} {% if time == '1' %}min{% else %}mins{% endif %}</p>
-    {{ content }}
+	{{ content }}
 	{% include share.html %}
 </div>

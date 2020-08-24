@@ -34,7 +34,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-admin
   - jekyll-sitemap
-  - liquid_reading_time
   - jekyll-remote-theme
 
 disqus:
