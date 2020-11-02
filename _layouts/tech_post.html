@@ -2,6 +2,9 @@
 layout: post
 ---
 <div class="tech_post">
+	{% if layout.image %}
+		<img src="{{ layout.image }}" alt="No image"/> 
+	{% endif %}
 	{{ content }}
 	{% include share.html %}
 </div>
