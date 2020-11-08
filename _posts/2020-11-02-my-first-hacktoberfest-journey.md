@@ -5,9 +5,8 @@ layout: tech_post
 tags:
 - open-source
 - hacktoberfest
-image: images/hacktoberfest/hacktoberfest.svg
+image: /images/hacktoberfest/hacktoberfest.jpeg
 ---
-
 ### About Hacktoberfest
 The Hacktoberfest is a month long event organised on October every year. It is for everyone to contribute and get started with open source. To participate in hacktoberfest, anyone has to make 4 valid pull requests to the repositories that are participating in the event. Those who completes the challenge with 4 PRs, can choose a limited edition Hacktoberfest 2020 tee or plant a tree, as sponsored by Digital ocean and its partners.
 
