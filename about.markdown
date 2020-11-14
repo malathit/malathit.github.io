@@ -4,12 +4,13 @@ layout: page
 permalink: "/about/"
 ---
 
-I have been having around 7 years experience in developing softwares.
+I have around 8 years experience as software developer.
 
-Everybody gets the feeling of accomplishment, when they get their `Hello world!!!` program compiles successfully at the start of programming. However, this blog is more about the concepts/best practises, we encounter beyond the hello world.
+I have always believed that you only know about something well, only if you can teach it to others. Also, I have always loved to teach my friends, colleagues etc. The result is this blog.
 
-I will write posts on topics such as 
+I write posts on the below topics
 - Software development best practises
 - Spring boot
 - API development
 - CI & CD
+- Kubernetes

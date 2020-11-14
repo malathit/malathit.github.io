@@ -20,7 +20,7 @@
 
 title: Curious concepts
 description: >- # this means to ignore newlines until "baseurl:"
-  Another technical blog about spring-boot, Kubernetes, Istio and the best software development practises.
+  A technical blog about spring-boot, Kubernetes, Istio and the best software development practises.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.malathi.dev" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true
@@ -68,7 +68,7 @@ minima:
     linkedin: malathit
     stackoverflow: malathi
 author:
-  name: Malathi Thangarajan
+  name: Malathi
   email: malu.t90@gmail.com
 
 remote_theme: jekyll/minima
