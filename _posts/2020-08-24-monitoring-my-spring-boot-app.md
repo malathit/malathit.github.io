@@ -1,6 +1,5 @@
 ---
 title: Monitoring my spring boot app
-layout: tech_post
 tags:
 - spring-boot
 - API

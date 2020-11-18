@@ -1,5 +1,4 @@
 ---
-layout: tech_post
 title: "Factory design pattern with Spring boot"
 date: 2020-02-16 09:47:17 +0530
 description: Implement factory design pattern in a spring boot application

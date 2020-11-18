@@ -1,7 +1,6 @@
 ---
 title: Kubernetes - Tips & Tricks
 date: '2020-11-14 21:13:04'
-layout: tech_post
 tags:
 - Kubernetes
 - k8s

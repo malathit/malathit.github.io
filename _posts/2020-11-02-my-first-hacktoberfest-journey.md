@@ -1,7 +1,6 @@
 ---
 title: My Hacktoberfest journey
 date: '2020-11-02 13:13:56'
-layout: tech_post
 tags:
 - open-source
 - hacktoberfest

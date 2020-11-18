@@ -7,7 +7,6 @@ tags:
 - spring-boot
 - jaeger
 - tracing
-layout: tech_post
 ---
 
 #### Pre-requisities

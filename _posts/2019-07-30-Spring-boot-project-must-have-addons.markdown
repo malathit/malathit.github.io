@@ -1,5 +1,4 @@
 ---
-layout: tech_post
 title:  "Spring boot project - Must have addons!"
 date:   2019-07-30 03:49:41 +0530
 description: Must do things with a spring boot project

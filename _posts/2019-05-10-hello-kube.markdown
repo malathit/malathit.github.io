@@ -1,5 +1,4 @@
 ---
-layout: tech_post
 title:  "Hello kube"
 date:   2019-05-10 10:49:41 +0530
 description: Getting started with kubernetes to deploy an app

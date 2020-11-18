@@ -1,6 +1,5 @@
 ---
 title: Validating your API input
-layout: tech_post
 tags:
 - Spring Boot
 - validations
