@@ -1,5 +1,6 @@
 ---
 title:  "Spring boot project - Must have addons!"
+category: development
 date:   2019-07-30 03:49:41 +0530
 description: Must do things with a spring boot project
 tags: [ Spring Boot, Lombok, Swagger, Checkstyle, docker, Rest api ]

@@ -38,13 +38,14 @@ plugins:
   - jekyll-remote-theme
   - jemoji
   - jekyll-include-cache
+  - jemoji
 
 # Pagination settings
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page/:num/
+paginate_path: /page:num/
 
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 repository: "malathit/malathit.github.io"
 
 words_per_minute: 200
@@ -61,7 +62,7 @@ analytics:
 author:
   name     : "Malathi"
   avatar   : "https://s.gravatar.com/avatar/3706ad62b82b6482f64ab6139b0ab6d6?s=80"
-  bio      : "Software developer and loves to teach"
+  bio      : "I am interested in learning new technologies and writing scalable code."
   location : "Chennai, India"
   links:
     - label: "GitHub"
@@ -70,8 +71,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/malathit"
-
-teaser: /assets/images/blog-cover.png
 
 include:
   - _pages
@@ -92,6 +91,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
       read_time: true
       comments: true
       share: true
