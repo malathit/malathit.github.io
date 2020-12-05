@@ -1,8 +1,10 @@
 ---
 title: "Factory design pattern with Spring boot"
 date: 2020-02-16 09:47:17 +0530
+category: development
 description: Implement factory design pattern in a spring boot application
 tags: [ Spring Boot, Gof, Design Patterns ]
+excerpt: "Factory design pattern example in spring-boot based on configuration"
 ---
 > Design patterns are the `best solutions` for repeated problems that occurs when developing an application.
 

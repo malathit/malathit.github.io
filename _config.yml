@@ -48,7 +48,7 @@ paginate_path: /page:num/
 minimal_mistakes_skin: neon
 repository: "malathit/malathit.github.io"
 
-words_per_minute: 200
+words_per_minute: 160
 comments:
   provider: disqus
   disqus:
@@ -99,6 +99,8 @@ defaults:
       toc: false
       toc_sticky: true
       classes: wide
+      header:
+        overlay_color: "#333"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

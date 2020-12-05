@@ -5,6 +5,8 @@ tags:
 - Kubernetes
 - k8s
 - devops
+category: devops
+excerpt: "Things to note and remember when working with Kubernetes - set of beginner friendly tips"
 ---
 Kubernetes is the orchestration framework for containers. It has greatly simplified and automated the DevOps world. There are many advancements and new tools created every day. In this post, I am going to explain the tips and tricks, I came across, that can be used to get the maximum benefit out of k8s(Kubernetes).
 

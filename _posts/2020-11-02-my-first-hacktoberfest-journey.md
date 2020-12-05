@@ -1,11 +1,14 @@
 ---
 title: My Hacktoberfest journey
 date: '2020-11-02 13:13:56'
+category: open-source
 tags:
 - open-source
 - hacktoberfest
-image: /images/hacktoberfest/hacktoberfest.jpeg
+image: "/images/hacktoberfest/hacktoberfest.jpeg"
+excerpt: "Sharing the experience of participating in Hacktoberfest 2020"
 ---
+
 ### About Hacktoberfest
 The Hacktoberfest is a month long event organised on October every year. It is for everyone to contribute and get started with open source. To participate in hacktoberfest, anyone has to make 4 valid pull requests to the repositories that are participating in the event. Those who completes the challenge with 4 PRs, can choose a limited edition Hacktoberfest 2020 tee or plant a tree, as sponsored by Digital ocean and its partners.
 
@@ -26,7 +29,8 @@ Been able to spend time over the weekends, I managed to get 4 PRs ready by the e
 - [https://github.com/Ciphey/Ciphey/pull/446](Terminal test for Ciphey #446)
 - [https://github.com/Ciphey/Ciphey/pull/467](Add uuencode)
 - [https://github.com/MatBenfield/morning.thechels.uk/pull/18](Adding Corona data)
-- [https://github.com/LoginRadius/engineering-portal/pull/401](Blog post on creating a new blog with jekyll & github pages).  My blog published [here](https://www.loginradius.com/engineering/blog/setup-blog-in-minutes-with-jekyll/), if you are interested.
+- [https://github.com/LoginRadius/engineering-portal/pull/401](Blog post on creating a new blog with jekyll & github pages).  
+- My blog published [here](https://www.loginradius.com/engineering/blog/setup-blog-in-minutes-with-jekyll/), if you are interested.
 
 ![Hacktoberfest PR completion](/images/hacktoberfest/hacktoberfest-pr-snapshot.png)
 

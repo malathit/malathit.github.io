@@ -1,11 +1,13 @@
 ---
-title: Monitoring my spring boot app
+title: Monitoring spring boot application with Prometheus & Grafana
 tags:
 - spring-boot
 - API
 - monitoring
 - prometheus
 - grafana
+category: devops
+excerpt: "101 tutorial on enabling monitoring for a sample spring-boot application"
 ---
 
 Monitoring is an essential feature once your app starts serving live traffic. With monitoring enabled, it is feasible to configure alerts which in turn triggers a mail notification, for example. The most popular monitoring stack is offered by `Prometheus and Grafana`. Let's see how we send the metrics provided by the spring boot actuator to prometheus and create dashboards in Grafana.

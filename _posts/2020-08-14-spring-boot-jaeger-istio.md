@@ -7,6 +7,8 @@ tags:
 - spring-boot
 - jaeger
 - tracing
+category: development
+excerpt: "A 101 tutorial on adding trace information with jaeger & istio on a spring-boot application"
 ---
 
 #### Pre-requisities

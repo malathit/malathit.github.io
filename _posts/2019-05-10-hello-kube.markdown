@@ -4,6 +4,7 @@ date:   2019-05-10 10:49:41 +0530
 description: Getting started with kubernetes to deploy an app
 tags: [ Kubernetes, k8s, Kubernetes example ]
 category: devops
+excerpt: "Kubernetes 101 tutorial with an example"
 ---
 Kubernetes is one of the highly demanded skill in the software deployment process right now. Let us understand Kubernetes, mystery resolved with a simple demo.
 

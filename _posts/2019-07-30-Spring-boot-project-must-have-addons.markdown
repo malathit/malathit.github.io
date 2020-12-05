@@ -4,6 +4,7 @@ category: development
 date:   2019-07-30 03:49:41 +0530
 description: Must do things with a spring boot project
 tags: [ Spring Boot, Lombok, Swagger, Checkstyle, docker, Rest api ]
+excerpt: "Useful addons to use with a spring boot application to get maximum benefit"
 ---
 
 Having worked with *spring boot* for a while, I find that there are certain things that can be added with ease and will be quite useful. Let's see them one by one.

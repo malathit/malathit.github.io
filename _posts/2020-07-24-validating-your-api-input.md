@@ -1,10 +1,12 @@
 ---
-title: Validating your API input
+title: Spring boot validation framework
 tags:
 - Spring Boot
 - validations
 - API
 - rest
+category: development
+excerpt: "This is a tutorial on how to validate with the spring-boot validation framework and write a custom validator"
 ---
 
 **Why is validating my inputs important?**
