@@ -22,7 +22,7 @@ title: Curious concepts
 description: >- # this means to ignore newlines until "baseurl:"
   A technical blog about spring-boot, Kubernetes, Istio and the best software development practises.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.malathi.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://malathi.dev" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true
 
 # Build settings
