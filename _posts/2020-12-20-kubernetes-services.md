@@ -211,7 +211,7 @@ spec:
 As you see, this service is a mapping to google.com website which is accessible within the cluster as follows:
 ```sh
 > kubectl exec -it test-pod-6f4b5b47d6-dmmh2 -- /bin/bash
-root@test-pod-6f4b5b47d6-dmmh2:/# curl -k google.com http://github
+root@test-pod-6f4b5b47d6-dmmh2:/# curl -k google.com http://google-svc
 <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 <TITLE>301 Moved</TITLE></HEAD><BODY>
 <H1>301 Moved</H1>
