@@ -100,7 +100,7 @@ defaults:
       toc_sticky: true
       classes: wide
       header:
-        overlay_color: "#333"
+        overlay_color: "#282936"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -121,3 +121,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+after_footer_scripts:
+  - /assets/js/vanilla-back-to-top.min.js
+  - /assets/js/back-to-top.js
