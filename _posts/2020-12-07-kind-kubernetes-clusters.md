@@ -14,7 +14,7 @@ For testing and local development, we can't rely on the Kubernetes cluster in th
 
 ### Creating a kind cluster
 KinD stands for **K**ubernetes **in** **D**ocker. So kind creates nodes with docker containers.
-{: .notice}
+{: .notice--info}
 
 First and foremost, we need a config file, that will explain `kind` how to create a cluster. This is a sample config file
 ```yaml
@@ -49,7 +49,7 @@ kind create cluster --config kind-example-config.yaml --name test-kind-k8s
 ```
 The above command, creates a 3 node Kubernetes cluster as specified in the config file(having the above yaml content) with name test-kind-k8s. Once the cluster is up and running, you will see the output like this.
 
-![cluster creation output](/images/kindcluster/cluster-creation.png)
+![cluster creation output](/images/kindcluster/cluster-creation.png){: .width-half}
 
 As specified in the output, when I ran the command at the end, I get the below output
 ```sh 
@@ -69,7 +69,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/mast
 ```
 
 If you go to the url specified in the above command, you will see a set of yamls. A closer look at the yaml, says the ingress controller deployment runs in node with the labels `ingress-ready=true`. If you remember, the label is present in our control-plane node. So this implies the controller deployment runs in our control-plane node. Also, the ingress controller listens on port 80 & 443 in the control-plane node. The ports 80 & 443 are already mapped to localhost as mentioned in the config file.
-{: .notice}
+{: .notice--info}
 
 The nginx controller installation is complete, once the deployment is up and running in the `ingress-nginx` namespace.
 ### Deploy a sample application 

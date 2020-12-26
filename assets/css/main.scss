@@ -26,7 +26,7 @@ $base0f: #00f769;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
 @import "./gist-dark.css";
-@import "./font.css";
+@import "./notice.css";
 
 ::selection {
     color: black;
@@ -35,4 +35,35 @@ $base0f: #00f769;
 
 .width-half {
     width: 50%
+}
+
+.notice--primary, .notice--info, .notice--warning,
+.notice--success, .notice--danger {
+  color: inherit;
+  code {
+    background-color: transparentize($color: $background-color, $amount: .8);
+  };
+  a {
+    color: inherit;
+  }
+}
+
+.notice--primary {
+    background-color: $primary-alt-color;
+}
+  
+.notice--info {
+    background-color: $info-color;
+}
+  
+.notice--warning {
+    background-color: $warning-color;
+}
+  
+.notice--success {
+    background-color: $success-color;
+}
+  
+.notice--danger {
+    background-color: $danger-color;
 }

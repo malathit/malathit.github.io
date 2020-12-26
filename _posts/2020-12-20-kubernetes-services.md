@@ -63,8 +63,8 @@ spec:
     targetPort: 80
 ```
 
+{: .notice--info}
 If the `targetPort` is not mentioned, by default it is considered the same as that of `port` field value.
-{: .notice}
 
 Run the command, `kubectl get service` to get the available kubernetes services.
 ```sh
