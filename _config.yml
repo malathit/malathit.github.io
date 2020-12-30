@@ -55,9 +55,9 @@ comments:
     shortname: malathit-github-io
 
 analytics:
-  provider: google
+  provider: google-gtag
   google:
-    tracking_id: G-ZXRXMKNLFS
+    tracking_id: G-XF1C6FKK1T
 
 author:
   name     : "Malathi"
