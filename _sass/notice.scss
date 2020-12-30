@@ -1,0 +1,58 @@
+.notice--primary, .notice--info, .notice--warning,
+.notice--success, .notice--danger {
+  color: inherit;
+  code {
+    background-color: transparentize($color: $background-color, $amount: .8);
+  };
+  a {
+    color: inherit;
+  }
+}
+
+.notice--primary {
+    background-color: $primary-alt-color;
+}
+  
+.notice--info {
+    background-color: $info-color;
+}
+  
+.notice--warning {
+    background-color: $warning-color;
+}
+  
+.notice--success {
+    background-color: $success-color;
+}
+  
+.notice--danger {
+    background-color: $danger-color;
+}
+
+.notice--info:before {
+    content: "\f05a \00a0 Note \a";
+    white-space: pre;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.notice--warning:before {
+    content: "\f35d \00a0 Warning\a";
+    white-space: pre;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.notice--success::before {
+    content: "\f46c \00a0 Success\a";
+    white-space: pre;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  
+.notice--danger::before {
+    content: "\f071 \00a0 Error\a";
+    white-space: pre;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}

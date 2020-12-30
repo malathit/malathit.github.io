@@ -126,7 +126,7 @@ after_footer_scripts:
   - /assets/js/vanilla-back-to-top.min.js
   - /assets/js/back-to-top.js
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 jekyll-archives:
   enabled:
