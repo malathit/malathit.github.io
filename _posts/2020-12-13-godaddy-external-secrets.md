@@ -5,6 +5,10 @@ excerpt: A tutorial on fetching the secrets stored in the AWS secrets manager us
 category:
 - devops
 - kubernetes
+tags:
+- Kubernetes secrets
+- Godaddy's external secret
+- localstack
 ---
 
 Kubernetes secrets use `Base64` encoding to encode the secrets. It is simple to decode a base64 encoded, but from a security point of view, storing the secret in the git repository in the base64 encoded format is not good enough. In this tutorial, you will see about storing the secrets in AWS secrets manager and use external secrets by GoDaddy to create that as a Kubernetes secret.

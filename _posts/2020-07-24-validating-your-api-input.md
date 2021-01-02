@@ -6,7 +6,7 @@ tags:
 - API
 - rest
 category: development
-excerpt: "This is a tutorial on how to validate with the spring-boot validation framework and write a custom validator"
+excerpt: "This is a tutorial on how to do input validation with the spring-boot validation framework and write a custom validator to suit his/her needs."
 ---
 
 **Why is validating my inputs important?**

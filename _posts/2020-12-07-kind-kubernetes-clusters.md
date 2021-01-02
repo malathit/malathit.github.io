@@ -3,6 +3,11 @@ title: kind Kubernetes clusters
 excerpt: A tutorial on creating a multi-node 'kind' Kubernetes cluster in local for
   testing & development purposes
 category: development
+tags:
+  - Kubernetes
+  - kind
+  - docker
+  - ingress-controller
 ---
 
 For testing and local development, we can't rely on the Kubernetes cluster in the cloud. For one reason, it is costly. One another reason is the need of fast internet connection. So, local Kubernetes cluster comes to the rescue. In this post, lets see how to get started with a local Kubernetes cluster. 

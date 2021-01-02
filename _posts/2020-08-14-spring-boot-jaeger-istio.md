@@ -3,7 +3,6 @@ title: Spring-boot, Jaeger & Istio
 tags:
 - Kubernetes
 - istio
-- k8s
 - spring-boot
 - jaeger
 - tracing
@@ -12,8 +11,8 @@ excerpt: "A 101 tutorial on adding trace information with jaeger & istio on a sp
 ---
 
 #### Pre-requisities
-- A single node [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) cluster
-- [Istio](https://istio.io/latest/docs/setup/getting-started/#download) is installed in the minikube cluster
+- A single node [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) cluster or [kind]({% post_url 2020-12-07-kind-kubernetes-clusters %}) cluster.
+- [Istio](https://istio.io/latest/docs/setup/getting-started/#download) is installed in the minikube/kind cluster
 
 #### Jaeger
 In the microservice architecture, distributed tracing help us understand better when there is performance issue or when  failure happens. Jaeger help us enable the distributed tracing with minimal code changes in our application. 

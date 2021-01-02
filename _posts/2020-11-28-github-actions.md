@@ -5,7 +5,8 @@ tags:
 - Spring Boot
 - devops
 - deployment
-excerpt: "A brief analysis of Github actions explained with an example"
+- Github actions
+excerpt: "A post on creating Github actions to build a spring-boot application automatically. The common and popular github actions are also discussed."
 ---
 
 Continuous Integration(CI) & Continuous Delivery(CD) are one of the necessary steps in the development of a software. In simple terms, Continuous Integration is validating, testing and integrating the code changes made by a developer. Continuous delivery means releasing/deploying the software in an automated manner. CI & CD saves developer time, that is usually spent in manual testing, enforcing the code format etc. It also helps in reducing the release cycle time.
@@ -55,7 +56,7 @@ As you see, the yaml has a list of steps, each one being a Github action.
  For a curated list of the actions, you can checkout this [repository][github actions curated].
 
 ### Benefits
-- As an open source developer, I don't need to bother about having infra to build the repository. Github takes care of the infra. Also, Github offers enough free build minutes, which should be sufficient for smaller teams or individuals. Also there is provision that we can create & host your own runners to run the workflow. More details [here][self-hosted runners].
+- As a developer, I don't need to bother about having infra to build the repository. Github takes care of the infra. Also, Github offers enough free build minutes, which should be sufficient for smaller teams or individuals. Also there is provision that we can create & host your own runners to run the workflow. More details [here][self-hosted runners].
 - There are so many open source Github actions ready to use. If needed, you can create one for yourself. Details on creating your own Github action [here][custom github action].
 - The capability to run the workflow against various [events][workflow trigger] such as pull requests, branch updates, releases etc
 - Viewing the results of each Github workflow as part of the pull request, making the code review process much simpler.

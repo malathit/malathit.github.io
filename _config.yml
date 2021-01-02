@@ -38,7 +38,6 @@ plugins:
   - jekyll-remote-theme
   - jemoji
   - jekyll-include-cache
-  - jekyll-archives
 
 # Pagination settings
 permalink: /:categories/:title/
@@ -132,14 +131,10 @@ after_footer_scripts:
   - /assets/js/vanilla-back-to-top.min.js
   - /assets/js/back-to-top.js
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 breadcrumbs: true

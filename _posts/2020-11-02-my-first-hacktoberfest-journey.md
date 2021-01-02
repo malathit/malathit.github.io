@@ -6,7 +6,7 @@ tags:
 - open-source
 - hacktoberfest
 image: "/images/hacktoberfest/hacktoberfest.jpeg"
-excerpt: "Sharing the experience of participating in Hacktoberfest 2020"
+excerpt: "Sharing my experience of participating in Hacktoberfest 2020 and a note of the work done and the blog created during the event."
 ---
 
 ### About Hacktoberfest

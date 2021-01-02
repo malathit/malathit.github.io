@@ -23,7 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-remote-theme"
   gem "jemoji"
-  gem "jekyll-archives"
 end
 
 gem "jekyll-include-cache", group: :jekyll_plugins

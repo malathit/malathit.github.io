@@ -1,3 +1,5 @@
 main:
+  - title: "My Posts"
+    url: /categories/
   - title: "About me"
     url: https://resume.malathi.dev
