@@ -84,6 +84,7 @@ defaults:
       layout: single
       author_profile: true
       show_date: true
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -101,6 +102,11 @@ defaults:
       classes: wide
       header:
         overlay_color: "#282936"
+  # categories
+  - scope:
+      path: categories
+    values:
+      sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
