@@ -10,9 +10,10 @@ sitemap: false
 Thanks for visting my site. I am a software developer by profession.
 
 In my spare time, I blog on topics that interest me as,
-- Spring boot
-- Devops (CI & CD)
-- Kubernetes
+- [Spring boot](/tags/#spring-boot)
+- [Devops (CI & CD)](/tags/#devops)
+- [Kubernetes](/tags/#kubernetes)
 
-I :heart: open-source and I also contribute to open-source softwares when time permits.
-You can connect with me on LinkedIn and if you want to know more about me, click [here](https://resume.malathi.dev)
+I :heart: open-source and I also contribute to open-source when time permits. To look at my blog posts please click [here](/categories/).
+
+If you want to know more about me, click [here](https://resume.malathi.dev).
