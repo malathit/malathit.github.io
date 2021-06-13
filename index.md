@@ -7,13 +7,11 @@ header:
   image: /assets/images/blog-cover.png
 sitemap: false
 ---
-Thanks for visting my site. I am a software developer by profession.
+Thanks for visting my site. I am a backend developer by profession. This blog is created with the intention of documenting my work. I will be glad if the posts help someone learn something. 
 
-In my spare time, I blog on topics that interest me as,
+I post on topics that interest me. In this site you will find posts on,
 - [Spring boot](/tags/#spring-boot)
 - [Devops (CI & CD)](/tags/#devops)
 - [Kubernetes](/tags/#kubernetes)
 
-I :heart: open-source and I also contribute to open-source when time permits. To look at my blog posts please click [here](/categories/).
-
-If you want to know more about me, click [here](https://resume.malathi.dev).
+I :heart: open-source and I also contribute to open-source when time permits. [Here](/categories/) is the link to my blog posts.
