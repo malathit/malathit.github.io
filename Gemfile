@@ -15,8 +15,8 @@ gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-seo-tag", "~> 2.6"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
   gem "jekyll-gist"
   gem "jekyll-admin"
   gem "jekyll-sitemap"

@@ -319,11 +319,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-gist
   jekyll-include-cache
   jekyll-remote-theme
-  jekyll-seo-tag (~> 2.6)
+  jekyll-seo-tag
   jekyll-sitemap
   jemoji
   minimal-mistakes-jekyll!
