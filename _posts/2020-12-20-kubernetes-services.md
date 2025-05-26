@@ -4,12 +4,16 @@ category:
 - devops
 - kubernetes
 - concepts
-excerpt: A brief analysis on how the Kubernetes services work and how to access them from within the cluster and outside the cluster using various service types. The concepts are demoed with a local kind cluster.
-tags: [Kubernetes, Kubernetes Services]
+excerpt: A brief analysis on how the Kubernetes services work and how to access them
+  from within the cluster and outside the cluster using various service types. The
+  concepts are demoed with a local kind cluster.
+tags:
+- Kubernetes
+- Kubernetes Services
 ---
 
 ### Introduction
-In Kubernetes, `pods` are the basic building blocks that run the containers. Each pod is given an IP address. So if we want to reach the servers running inside the pods we need a pod IP. Lets say we have 4 pod replicas running for a deployment and we can access the service with the pod IP address of any of the 4 running pods. The pods may be killed and replaced to rollout a new release or new pods can be created to scale for the traffic. The point is, the pods in a deployment may be changing once in a while. So how do we keep track of the up-to-date IP address of the pods in the deployment? `Services` in kubernetes is there to solve this i.e to keep track of the right set of IP address of the pods at any point of time.
+In Kubernetes, `pods` are the basic building blocks that run container(s). Each pod is given an IP address. So if we want to reach the servers running inside the pods we need a pod IP. Lets say we have 4 pod replicas running for a deployment and we can access the service with the pod IP address of any of the 4 running pods. The pods may be killed and replaced to rollout a new release or new pods can be created to scale for the traffic. The point is, the pods in a deployment may be changing once in a while. So how do we keep track of the up-to-date IP address of the pods in the deployment? `Services` in kubernetes is there to solve this i.e to keep track of the right set of IP address of the pods at any point of time.
 
 ### Demo
 #### Create kind cluster
