@@ -29,6 +29,8 @@ show_excerpts: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
+env: production
+
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -59,10 +61,10 @@ analytics:
     tracking_id: G-XF1C6FKK1T
 
 author:
-  name     : "Malathi"
+  name     : "Malathi Thangarajan"
   avatar   : "https://s.gravatar.com/avatar/3706ad62b82b6482f64ab6139b0ab6d6?s=80"
   bio      : "I am interested in learning new technologies and writing scalable code."
-  location : "Chennai, India"
+  location : "Munich, Germany"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -138,3 +140,8 @@ tag_archive:
   path: /tags/
 
 breadcrumbs: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

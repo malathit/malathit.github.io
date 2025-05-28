@@ -36,3 +36,26 @@ $base0f: #00f769;
 .width-half {
     width: 50%
 }
+
+/* portfolio page css */
+.project-card {
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    
+    .project-image {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+    }
+    
+    .technologies {
+      margin: 1em 0;
+      color: #666;
+    }
+    
+    .btn {
+      margin-right: 1em;
+    }
+  }
